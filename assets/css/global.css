@@ -6,18 +6,64 @@
 h1,h2,h3,h4,p,span,a,button,input{
     font-family: "Roboto", sans-serif;
 }
+body{
+    background-image: linear-gradient(#000, red, green);
+}
 
 
 /* imagen do cabeçalho */
 .foto-cabecalho{
-    background-color: red;
+    
      display: flex;
     justify-content: center;
-    justify-items: center;
-    
  }
  
  .title{
-    background-color: blue;
+    color: blue;
      text-align: center;
+     font-size: 35px;
  }
+ .big-box{
+     display: flex;
+     justify-content: center;
+ }
+ .general-box{
+     display: flex;
+     flex-direction: row;
+      justify-content: center; 
+     border-width: medium;
+     border-style: solid;
+     border-color: chartreuse;
+     width: 650px;
+    height: 50px;
+    align-items: center;
+    margin-top: 30px;
+      
+ }
+ .imag-networks{
+    /* margin-top: 38px; */
+    margin-right: 0.75rem;
+    display: flex;
+     font-size: 35px;   
+ }
+ .text-networks{
+     display: flex;
+     font-size: 30px;
+     /* margin-left: 20px; */
+ }
+ .link-twitter:hover{
+     color: green;
+ }
+ .link-facebook:hover{
+     color: green;
+ }
+ .link-instagram:hover{
+     color: green;
+ }
+ .link-youtube:hover{
+     color: green;
+ }
+ .link-twitch:hover{
+     color: green;
+ }
+ 
